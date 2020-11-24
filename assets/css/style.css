@@ -44,3 +44,27 @@ body {
       font-size: 22px;
   }
 
+  footer {
+        background:#fce138;
+        width: 100%;
+        padding: 40px 35px;
+  }
+
+  footer h2 {
+      font-size: 30px;
+      display: inline;
+      color: #024e76;
+      margin: 0;
+  }
+
+  footer div {
+      float : right;
+      line-height: 1.5;
+      text-align: right;
+  }
+
+  footer a {
+      color: #024e76;
+  }
+
+

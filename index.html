@@ -40,8 +40,8 @@
   </header>
   
   <!-- Start hero/jumbotron -->
-  <section>
-    <div>
+  <section class = "hero">
+    <div class = "hero-form">
       <h3>Get Started Today!</h3>
       <p>Fill out this form and one of our trainers will schedule a consult.</p>
         <form>
@@ -51,23 +51,22 @@
           the 'name' attribute identifies the element so the response can be referenced after the form is submitted.
           -->
             <label for = "name">Enter full name:</label>
-            <input type = "text" placeholder = "Your Name" name = "name" id = "name"/>
+            <input type = "text" placeholder = "Your Name" name = "name" id = "name" class = "form-input"/>
             <label for = "email">Enter email address:</label>
             <!-- type = 'email' instead of type = 'text' . Type 'email' will validate the user input indicating  it in a tooltip when user enters a wacky email address eg: sjfsdfsdf-->
-            <input type = "email" placeholder="Email Address" name = "email" id = "email" />
+            <input type = "email" placeholder="Email Address" name = "email" id = "email" class = "form-input"/>
             <label for = "phone">Enter a telephone number:</label>
-            <!-- type = 'tel' instead of type = 'text' . Type 'tel' will validate the user input indicating it in a tooltip when user enters a wacky invalid ph no. eg: 1111111-->
-            <input type = "tel" placeholder = "Phone Number" name = "phone" id = "phone" />
+            <!-- type = 'tel' instead of type = 'text' . Type 'tel' will validate the user input -->
+            <input type = "tel" placeholder = "Phone Number" name = "phone" id = "phone" class = "form-input"/>
             <p> 
               Have you worked out with a trainer before?
-              <input type = "radio" name = "trainer-confirm" id = "trainer-yes" />
+              <input type = "radio" name = "trainer-confirm" id = "trainer-yes"/>
               <label for = "trainer-yes">Yes</label>
               <input type = "radio" name = "trainer-confirm" id = "trainer-no" />
               <label for = "trainer-no"> No </label>
             </p>
-            <p>
-              <!-- wrapping value inside the <input> tag to aid accessibility options -->
-              <input type = "checkbox" value = "I acknowledge that I am atleast 18 years of age." name = "age-confirm" id = "checkbox"/>
+              I acknowledge that I am atleast 18 years of age.
+              <input type = "checkbox" name = "age-confirm" id = "checkbox" />
             </p>
             <button type = "submit">Get Running!</button>
         </form>

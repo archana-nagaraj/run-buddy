@@ -1,7 +1,9 @@
+/* Start --This code removes all default margin and padding for every object on the page, no holds barred, regardless of browser. */
 * {
     margin :0;
     padding: 0;
 }
+/* End.. */
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
@@ -22,7 +24,6 @@ body {
       margin:0;
       display : inline;
   }
-
 
   header a {
       color: #fce138;
@@ -67,4 +68,61 @@ body {
       color: #024e76;
   }
 
+  /* Hero Style Start */
+.hero {
+    padding : 60px;
+    background-image: url("../images/hero-bg.jpg");
+    height : 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
+.hero-form {
+    background-color: #fce138;
+    color : #024e76;
+    padding : 20px;
+    width : 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    position : absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: larger;
+    margin: 0;
+    
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 93%;
+    margin-bottom: 15px; 
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+
+
+/* Hero Style End */

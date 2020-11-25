@@ -47,7 +47,7 @@ body {
 
   footer {
         background:#fce138;
-        width: 100%;
+        
         padding: 40px 35px;
   }
 
@@ -73,6 +73,7 @@ body {
     padding : 60px;
     background-image: url("../images/hero-bg.jpg");
     height : 600px;
+    
     background-size: cover;
     background-position: center;
     position: relative;
@@ -123,6 +124,5 @@ body {
     border: none;
     font-size: 16px;
 }
-
 
 /* Hero Style End */

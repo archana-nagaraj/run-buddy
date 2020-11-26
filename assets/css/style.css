@@ -102,7 +102,6 @@ body {
     margin: 5px 0 15px 0;
 }
 
-
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -126,3 +125,26 @@ body {
 }
 
 /* Hero Style End */
+
+/* What We do Styling... */
+.intro {
+    text-align : center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fce138; 
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.intro p {
+    font-size: 20px;
+    line-height : 1.7;
+    color: #39a6b2;
+    width: 80%;
+    /*  display: inline-block;  this or line 149 can be used. Both are same.*/
+    margin: 0 auto;
+}

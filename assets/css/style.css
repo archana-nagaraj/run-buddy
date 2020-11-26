@@ -126,7 +126,7 @@ body {
 
 /* Hero Style End */
 
-/* Begin ..What We do Styling... */
+/* Begin ..'What We do' and 'What you do' Styling... */
 .intro {
     text-align : center;
 }
@@ -139,20 +139,19 @@ body {
     /*  display: inline-block;  this or line 149 can be used. Both are same.*/
     margin: 0 auto;
 }
-/* Ends ..What We do Styling... */
 
 
-/* Begin ..What You do Styling...  */
 .steps {
     text-align: center;
     background: #fce138;
+    padding-bottom: 35px;
 }
 
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    padding: 0px 100px 20px 100px;
+    padding: 20px 100px 20px 100px;
     border-bottom: 3px solid; 
     margin-bottom: 35px;
     display: inline-block;

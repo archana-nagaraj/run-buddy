@@ -206,6 +206,11 @@ body {
     overflow: auto;
 }
 
+.trainer img {
+    float: left;
+    width: 35%;
+}
+
 .trainer-bio {
     padding: 35px;
     float: left;
@@ -220,10 +225,6 @@ body {
     text-align: right;
 }
 
-.trainer img {
-    float: left;
-    width: 35%;
-}
 
 .trainer-bio h3 {
     font-size: 32px;

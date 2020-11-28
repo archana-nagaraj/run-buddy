@@ -73,7 +73,6 @@ body {
     padding : 60px;
     background-image: url("../images/hero-bg.jpg");
     height : 600px;
-    
     background-size: cover;
     background-position: center;
     position: relative;
@@ -213,7 +212,7 @@ body {
 
 .trainer-bio {
     padding: 35px;
-    
+    float: left;
     width: 65%;
 }
 
@@ -292,3 +291,14 @@ body {
 }
   
   /* REACH OUT STYLES END */
+
+  /* privacy policy */
+  .page-title {
+    font-size: 42px;
+    color : #fce138;
+    font-style: italic;
+    display : inline-block;
+    border-bottom: 4px solid #fce138;
+    padding-top: 0 100px 15px 100px;
+    font-weight: normal;
+}

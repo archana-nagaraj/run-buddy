@@ -1,2 +1,2 @@
 # run-buddy
-Module 1 _ Study material
+Module 1 _ Study Project
